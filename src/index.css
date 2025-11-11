@@ -1,0 +1,287 @@
+@import "tailwindcss";
+
+.back-ground-header{
+     background: linear-gradient(to bottom, #21022c 0%, #7014d9 70%, #57026c 100%);
+}
+.back-ground-contact{
+     background: linear-gradient(to bottom, #f9fff9 0%, #e2fee6 50%, #f9fff9 100%);
+}
+
+
+.icons-graid{
+     
+}
+
+
+.icons-graid:hover{
+   background: linear-gradient(135deg, #608cf0 0%, #532fe7 20%, #bb74f1 50%, #ef61b9 70%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  background-size: 200%; 
+}
+
+
+.nunito {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style:italic;
+  font-variation-settings:"wdth" 100,
+"YTLC" 500;
+}
+
+
+.footer-whats{
+     background-image: url("/./src/assets/footerwhats.jpeg");
+     object-fit: cover;
+     
+
+
+}
+
+
+
+.whatsapp-icon {
+  position: absolute;
+  top: 0;
+  right: 80px;
+  
+  font-size: 1rem;
+  text-shadow: 0 0 10px #22c55e;
+  animation: float 2s ease-in-out infinite;
+}
+
+.finger-up{
+  position: absolute;
+  top: 230px;
+  left: 100px;
+  
+  font-size: 1rem;
+  text-shadow: 0 0 10px rgb(32, 106, 254);
+  animation: finger 2s ease-in-out infinite;
+}
+
+.heart-icon {
+  position: absolute;
+  top: 0;
+  left: 70px;
+  
+  font-size: 1rem;
+  text-shadow: 0 0 10px #ee3030;
+  animation: float 2s ease-in-out infinite;
+}
+
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes finger {
+  0%, 100% {
+    transform: translateY(-9px);
+  }
+  50% {
+    transform: translateY(9px);
+  }
+}
+
+
+
+.whatsapp-icon-shiking {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  color: #22c55e;
+  font-size: 3rem;
+  text-shadow: 0 0 15px #22c55e;
+  animation: spinShake 2s ease-in-out infinite;
+}
+
+
+@keyframes spinShake {
+  0% {
+    transform: rotate(0deg) translateX(0);
+  }
+  25% {
+    transform: rotate(10deg) translateX(3px);
+  }
+  50% {
+    transform: rotate(0deg) translateX(-3px);
+  }
+  75% {
+    transform: rotate(-10deg) translateX(3px);
+  }
+  100% {
+    transform: rotate(0deg) translateX(0);
+  }
+}
+
+
+.phone{
+  background-image: url("/src/assets/feedback/phone.png");
+  width: 700px;
+  height: 500px;
+  background-repeat: no-repeat;
+  padding: 500px;
+  
+
+}
+
+
+@media (max-width: 768px) {
+  .phone {
+    width: 400px;
+    height: 300px;
+    padding: 200px;
+    background-size: contain;
+  }
+
+  .swiper-button-prev,
+.swiper-button-next {
+  color: rgb(207, 97, 238) !important; 
+  scale: 0.1; 
+}
+}
+
+/* لو عايزها أصغر كمان للموبايلات الصغيرة جداً */
+@media (max-width: 480px) {
+  .phone {
+    width: 200px;
+    height: 150px;
+    padding: 150px;
+    background-size: contain;
+    
+  }
+
+
+  .swiper-button-prev,
+.swiper-button-next {
+  color: rgb(207, 97, 238) !important; 
+  scale: 0.1; 
+}
+}
+
+
+@media (max-width: 480px) {
+  .comments {
+
+    left:12%;
+    top: 13%
+  
+  }
+
+  .w-photo{
+    max-width: 130px;
+  }
+
+
+
+  .swiper-button-prev,
+.swiper-button-next {
+  color: rgb(207, 97, 238) !important; 
+  scale: 0.1; 
+}
+
+
+  
+}
+
+
+
+
+
+
+
+
+.swiper-button-prev {
+  left: -10px !important;
+}
+
+.swiper-button-next {
+  right: -10px !important; 
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: rgb(180, 53, 243) !important; 
+  scale: 0.5; 
+}
+
+
+@media (max-width: 768px) {
+  .swiper-button-prev {
+    left: -20px;
+  }
+  .swiper-button-next {
+    right: -20px;
+  }
+}
+
+
+.no-out{
+
+  overflow: visible !important;
+}
+
+
+
+
+
+
+.container-3d {
+  position: relative;
+  perspective: 1000px;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* الوجهين */
+.front-side,
+.back-side {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease, opacity 0.6s ease;
+}
+
+
+.front-side {
+  transform: rotateY(0deg);
+  opacity: 1;
+}
+
+
+.back-side {
+  transform: rotateY(90deg); 
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container-3d.flipped .front-side {
+  transform: rotateY(90deg);
+  opacity: 0;
+}
+
+.container-3d.flipped .back-side {
+  transform: rotateY(0deg);
+  opacity: 1;
+}
+
+
+
+
