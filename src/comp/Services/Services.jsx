@@ -45,7 +45,7 @@ export default function Services() {
   </div>
 
 
-    <div className=" p-5 cursor-pointer hover:border-1 hover:shadow-2xl transition-all duration-100 hover:border-black max-w-sm p-9 bg-white border border-gray-200 rounded-lg shadow-sm ">
+    <div className=" md:p-9  cursor-pointer hover:border-1 hover:shadow-2xl transition-all duration-100 hover:border-black max-w-sm p-14 bg-white border border-gray-200 rounded-lg shadow-sm ">
     <div className='flex flex-col items-center'>
         <span className='mb-4'><i class="fa-solid fa-star text-4xl"></i></span>
         <span className='text-xl font-medium font-serif'>Whatsapp Message campaign</span>
