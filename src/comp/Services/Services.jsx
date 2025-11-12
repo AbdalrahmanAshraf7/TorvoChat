@@ -14,140 +14,59 @@ export default function Services() {
     </div>
    
 
-    <p className="my-2 font-medium text-gray-500 h-[90px]  ">Send & receive messages via Official WhatsApp APIs and Web hooks.</p>
+    <p className="my-2 font-medium text-gray-500 h-[90px]  ">Send & receive messages via  WhatsApp APIs </p>
  
   </div>
 
+
   <div className=" cursor-pointer hover:border-1 hover:shadow-2xl transition-all duration-100 hover:border-black max-w-sm p-9 bg-white border border-gray-200 rounded-lg shadow-sm ">
     <div className='flex flex-col items-center'>
-        <span className='mb-4'><i class="fa-brands fa-facebook text-4xl"></i></span>
-        <span className='text-xl font-medium font-serif'>Facebook Integration</span>
+        <span className='mb-4'><i class="fa-solid fa-pen-to-square text-4xl"></i></span>
+        <span className='text-xl font-medium font-serif'>Create Whatsapp channel </span>
 
     </div>
    
 
-    <p className="my-2 font-medium text-gray-500 h-[90px]  ">Integrate Facebook Messenger for seamless customer communication.</p>
- 
-  </div>
-
-  <div className=" cursor-pointer hover:border-1 hover:shadow-2xl transition-all duration-100 hover:border-black max-w-sm p-9 bg-white border border-gray-200 rounded-lg shadow-sm ">
-    <div className='flex flex-col items-center'>
-        <span className='mb-4'><i class="fa-brands fa-instagram text-4xl"></i></span>
-        <span className='text-xl font-medium font-serif'>Instagram Integration</span>
-
-    </div>
-   
-
-    <p className="my-2 font-medium text-gray-500 h-[90px]  ">Manage Instagram messages and interactions efficiently.</p>
- 
-  </div>
-
-  <div className=" cursor-pointer hover:border-1 hover:shadow-2xl transition-all duration-100 hover:border-black max-w-sm p-9 bg-white border border-gray-200 rounded-lg shadow-sm ">
-    <div className='flex flex-col items-center'>
-        <span className='mb-4'><i class="fa-solid fa-users-gear text-4xl"></i></span>
-        <span className='text-xl font-medium font-serif'>Intelligent CRM</span>
-
-    </div>
-  
-    <p className="my-2 font-medium text-gray-500 h-[90px]   ">Our In-Built CRM enables you to add various tags & attributes to customer.</p>
+    <p className="my-2 font-medium text-gray-500 h-[90px]  ">Easily create, edit, and monitor your WhatsApp channel with no hassle.</p>
  
   </div>
 
   <div className=" cursor-pointer hover:border-1 hover:shadow-2xl transition-all duration-100 hover:border-black max-w-sm p-9 bg-white border border-gray-200 rounded-lg shadow-sm ">
     <div className='flex flex-col items-center'>
         <span className='mb-4'><i class="fa-solid fa-robot text-4xl"></i></span>
-        <span className='text-xl font-medium font-serif'>Visual Bot Builder</span>
+        <span className='text-xl font-medium font-serif'>Auto Replay System </span>
 
     </div>
    
 
-    <p className="my-2 font-medium text-gray-500 h-[90px]  ">Create Bots Easily Using Our Drag & Drop Bot Builder.</p>
+    <p className="my-2 font-medium text-gray-500 h-[90px]  ">Automatic reply to messages using keywords
+</p>
  
   </div>
 
-  <div className=" cursor-pointer hover:border-1 hover:shadow-2xl transition-all duration-100 hover:border-black max-w-sm p-9 bg-white border border-gray-200 rounded-lg shadow-sm ">
+
+    <div className=" cursor-pointer hover:border-1 hover:shadow-2xl transition-all duration-100 hover:border-black max-w-sm p-9 bg-white border border-gray-200 rounded-lg shadow-sm ">
     <div className='flex flex-col items-center'>
-        <span className='mb-4'><i class="fa-solid fa-calendar-days text-4xl"></i></span>
-        <span className='text-xl font-medium font-serif'>Calendar Bot</span>
+        <span className='mb-4'><i class="fa-solid fa-star text-4xl"></i></span>
+        <span className='text-xl font-medium font-serif'>Whatsapp Message campaign</span>
 
     </div>
    
 
-    <p className="my-2 font-medium text-gray-500 h-[90px]  ">Complete appointment booking ecosystem with smart scheduling.</p>
+    <p className="my-2 font-medium text-gray-500 h-[90px]  ">Easily create an advertising campaign using the phone number control panel via the numbers file, with easy management and many other features.
+</p>
  
   </div>
 
-  <div className=" cursor-pointer hover:border-1 hover:shadow-2xl transition-all duration-100 hover:border-black max-w-sm p-9 bg-white border border-gray-200 rounded-lg shadow-sm ">
-    <div className='flex flex-col items-center'>
-        <span className='mb-4'><i class="fa-solid fa-ticket text-4xl"></i></span>
-        <span className='text-xl font-medium font-serif'>Tickets Bot</span>
 
-    </div>
-   
 
-    <p className="my-2 font-medium text-gray-500 h-[90px]  ">Comprehensive event ticketing system with QR code support.</p>
+
+
+
+
+  
+
  
-  </div>
-
-  <div className=" cursor-pointer hover:border-1 hover:shadow-2xl transition-all duration-100 hover:border-black max-w-sm p-9 bg-white border border-gray-200 rounded-lg shadow-sm ">
-    <div className='flex flex-col items-center'>
-        <span className='mb-4'><i class="fa-solid fa-qrcode text-4xl"></i></span>
-        <span className='text-xl font-medium font-serif'>Dynamic QR Bot</span>
-
-    </div>
-   
-
-    <p className="my-2 font-medium text-gray-500 h-[90px]  ">Create and manage dynamic QR codes for various campaigns.</p>
- 
-  </div>
-
-  <div className=" cursor-pointer hover:border-1 hover:shadow-2xl transition-all duration-100 hover:border-black max-w-sm p-9 bg-white border border-gray-200 rounded-lg shadow-sm ">
-    <div className='flex flex-col items-center'>
-        <span className='mb-4'><i class="fa-solid fa-gift text-4xl"></i></span>
-        <span className='text-xl font-medium font-serif'>Reward Points</span>
-
-    </div>
-   
-
-    <p className="my-2 font-medium text-gray-500 h-[90px]  ">Run comprehensive loyalty programs with point tracking.</p>
- 
-  </div>
-
-  <div className=" cursor-pointer hover:border-1 hover:shadow-2xl transition-all duration-100 hover:border-black max-w-sm p-9 bg-white border border-gray-200 rounded-lg shadow-sm ">
-    <div className='flex flex-col items-center'>
-        <span className='mb-4'><i class="fa-solid fa-palette text-4xl"></i></span>
-        <span className='text-xl font-medium font-serif'>Dynamic Experiences</span>
-
-    </div>
-   
-
-    <p className="my-2 font-medium text-gray-500 h-[90px]  ">Create dynamic images and HTML pages for rich interactions.</p>
- 
-  </div>
-
-  <div className=" cursor-pointer hover:border-1 hover:shadow-2xl transition-all duration-100 hover:border-black max-w-sm p-9 bg-white border border-gray-200 rounded-lg shadow-sm ">
-    <div className='flex flex-col items-center'>
-        <span className='mb-4'><i class="fa-solid fa-inbox text-4xl"></i></span>
-        <span className='text-xl font-medium font-serif '>Multichannel Team Inbox</span>
-
-    </div>
-   
-
-    <p className="my-2 font-medium text-gray-500 h-[90px]  ">Complete appointment booking ecosystem with smart scheduling.</p>
- 
-  </div>
-
-  <div className=" cursor-pointer hover:border-1 hover:shadow-2xl transition-all duration-100 hover:border-black max-w-sm p-9 bg-white border border-gray-200 rounded-lg shadow-sm ">
-    <div className='flex flex-col items-center'>
-        <span className='mb-4'><i class="fa-solid fa-gears text-4xl"></i></span>
-        <span className='text-xl font-medium font-serif'>Automation Builder</span>
-
-    </div>
-   
-
-    <p className="my-2 font-medium text-gray-500 h-[90px]   ">Easily Integrate With Shopify WooCommerce, and 1000+ Tools.</p>
- 
-  </div>
 
 
 
